@@ -1,0 +1,274 @@
+{
+  "films": [
+    {
+      "id": 1,
+      "name": "Enfants de Paradis",
+      "runtime": "162",
+      "director": "Michael Carne",
+      "year": 1945
+    },
+    {
+      "id": 2,
+      "name": "Apocalypse Now",
+      "runtime": 147,
+      "director": "Francis Ford Coppola",
+      "year": 1979
+    },
+    {
+      "id": 3,
+      "name": "La Dolce Vita",
+      "runtime": 115,
+      "director": "Federico Fellini",
+      "year": 1960
+    },
+    {
+      "id": 4,
+      "name": "A Bout de Souffle",
+      "runtime": 98,
+      "director": "Jean-Luc Godard",
+      "year": 1960
+    },
+    {
+      "id": 5,
+      "name": "Raging Bull",
+      "runtime": 121,
+      "director": "Martin Scorsese",
+      "year": 1981
+    },
+    {
+      "id": 6,
+      "name": "Grand Illusion",
+      "runtime": 102,
+      "director": "Jean Renoir",
+      "year": 1938
+    },
+    {
+      "id": 7,
+      "name": "El Angel Exterminador",
+      "runtime": 96,
+      "director": "Luis Bunuel",
+      "year": 1969
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Anna",
+      "lastName": "Carrington",
+      "authorisation": "Reviewer",
+      "password": "abc123"
+    },
+    {
+      "id": 2,
+      "firstName": "Frank",
+      "lastName": "Messer",
+      "authorisation": "User",
+      "password": "passw0rd"
+    },
+    {
+      "id": 3,
+      "firstName": "Melissa",
+      "lastName": "Hendrick",
+      "authorisation": "Reviewer",
+      "password": "bananaapple"
+    },
+    {
+      "id": 4,
+      "firstName": "Andrew",
+      "lastName": "Unger",
+      "authorisation": "User",
+      "password": "aunger123"
+    },
+    {
+      "id": 5,
+      "firstName": "Bernard",
+      "lastName": "Fenn",
+      "authorisation": "Owner",
+      "password": "123456"
+    }
+  ],
+  "ratings": [
+    {
+      "id": 1,
+      "value": 3,
+      "reviewContent": "Okay",
+      "dateTime": "24/05/2019",
+      "filmId": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "value": 4,
+      "reviewContent": "Okay",
+      "dateTime": "22/06/2019",
+      "filmId": 2,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "value": 3,
+      "reviewContent": "Okay",
+      "dateTime": "05/02/2019",
+      "filmId": 6,
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "value": 3,
+      "reviewContent": "Okay",
+      "dateTime": "09/07/2019",
+      "filmId": 5,
+      "userId": 2
+    },
+    {
+      "id": 5,
+      "value": 3,
+      "reviewContent": "Okay",
+      "dateTime": "12/03/2019",
+      "filmId": 6,
+      "userId": 1
+    },
+    {
+      "id": 6,
+      "value": 4,
+      "reviewContent": "Okay",
+      "dateTime": "21/03/2019",
+      "filmId": 7,
+      "userId": 3
+    },
+    {
+      "id": 7,
+      "value": 4,
+      "reviewContent": "Okay",
+      "dateTime": "05/04/2019",
+      "filmId": 4,
+      "userId": 3
+    },
+    {
+      "id": 8,
+      "value": 1,
+      "reviewContent": "Okay",
+      "dateTime": "01/05/2019",
+      "filmId": 4,
+      "userId": 1
+    },
+    {
+      "id": 9,
+      "value": 5,
+      "reviewContent": "Okay",
+      "dateTime": "10/09/2019",
+      "filmId": 5,
+      "userId": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "commentContent": "Okay",
+      "dateTime": "24/05/2019",
+      "ratingId": 1
+    },
+    {
+      "id": 2,
+      "commentContent": "Okay",
+      "dateTime": "24/05/2019",
+      "ratingId": 1
+    },
+    {
+      "id": 3,
+      "commentContent": "Okay",
+      "dateTime": "22/06/2019",
+      "ratingId": 2
+    },
+    {
+      "id": 4,
+      "commentContent": "Okay",
+      "dateTime": "22/06/2019",
+      "ratingId": 2
+    },
+    {
+      "id": 5,
+      "commentContent": "Okay",
+      "dateTime": "23/06/2019",
+      "ratingId": 2
+    },
+    {
+      "id": 6,
+      "commentContent": "Okay",
+      "dateTime": "07/02/2019",
+      "ratingId": 3
+    },
+    {
+      "id": 7,
+      "commentContent": "Okay",
+      "dateTime": "12/03/2019",
+      "ratingId": 5
+    },
+    {
+      "id": 8,
+      "commentContent": "Okay",
+      "dateTime": "12/03/2019",
+      "ratingId": 5
+    },
+    {
+      "id": 9,
+      "commentContent": "Okay",
+      "dateTime": "21/03/2019",
+      "ratingId": 6
+    },
+    {
+      "id": 10,
+      "commentContent": "Okay",
+      "dateTime": "22/03/2019",
+      "ratingId": 6
+    },
+    {
+      "id": 11,
+      "commentContent": "Okay",
+      "dateTime": "05/04/2019",
+      "ratingId": 7
+    },
+    {
+      "id": 12,
+      "commentContent": "Okay",
+      "dateTime": "05/04/2019",
+      "ratingId": 7
+    },
+    {
+      "id": 13,
+      "commentContent": "Okay",
+      "dateTime": "07/04/2019",
+      "ratingId": 7
+    },
+    {
+      "id": 14,
+      "commentContent": "Okay",
+      "dateTime": "08/04/2019",
+      "ratingId": 7
+    },
+    {
+      "id": 15,
+      "commentContent": "Okay",
+      "dateTime": "08/04/2019",
+      "ratingId": 7
+    },
+    {
+      "id": 16,
+      "commentContent": "Okay",
+      "dateTime": "01/05/2019",
+      "ratingId": 8
+    },
+    {
+      "id": 17,
+      "commentContent": "Okay",
+      "dateTime": "10/09/2019",
+      "ratingId": 9
+    },
+    {
+      "id": 18,
+      "commentContent": "Okay",
+      "dateTime": "10/09/2019",
+      "ratingId": 9
+    }
+  ]
+}
